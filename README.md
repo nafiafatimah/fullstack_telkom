@@ -45,8 +45,8 @@ Dashboard aplikasi full-stack dengan autentikasi JWT, manajemen data, grafik ana
 | Teknologi | Versi | Deskripsi |
 |-----------|-------|-----------|
 | **React** | 19.2.8 | Frontend framework |
-| **Vite** | 8.2.0 | Build tool dan development server |
-| **Tailwind CSS** | 3.4.14 | Utility-first CSS framework |
+| **Vite** | 5.4.0 | Build tool dan development server |
+| **Tailwind CSS** | 3.4.19 | Utility-first CSS framework |
 | **Recharts** | 3.10.1 | Library grafik interaktif |
 | **Lucide React** | 1.28.0 | Icon library modern |
 | **Axios** | 1.19.0 | HTTP client untuk API |
