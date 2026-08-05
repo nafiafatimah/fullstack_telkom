@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    image: bektigalan/test:latest
+    container_name: backend-api
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: frontend-dashboard
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
