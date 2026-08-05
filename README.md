@@ -73,10 +73,10 @@ Dashboard aplikasi full-stack dengan autentikasi JWT, manajemen data, grafik ana
 
 #### a. Prasyarat
 Pastikan Anda sudah menginstall:
-- [Node.js](https://nodejs.org/) (v18 atau lebih baru)
+- [Node.js](https://nodejs.org/) (v20 atau lebih baru)
 - [Docker](https://www.docker.com/) (untuk backend)
 
 #### b. Clone Repository
 ```bash
 git clone https://github.com/nafiafatimah/fullstack_telkom.git
-cd fullstack_telkomnpm install
+cd fullstack_telkom
